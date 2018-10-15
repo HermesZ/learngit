@@ -1,2 +1,2 @@
-hello world. Are you ok?
-I'm fine. I'm fighting.
+git is a distribution version control system.
+git is free software distributed under the GPI.
