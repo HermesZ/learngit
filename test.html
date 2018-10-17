@@ -5,7 +5,7 @@
 <title>新大陆的苍蓝星</title>
 <style type="text/css">
     table tr td,th{border:1px solid #000;}
-    div{ width: 200px; height: 200px; float: left;} 
+    div{ width:1000px; height: 200px; float: left;} 
 </style>
 </head>
 <body>
@@ -90,12 +90,13 @@
     <div>
         <form>
             <label for="address">请输入邮箱地址:</label>
-            <input type="text"  name="address" id="address" value=""/>
+            <input type="text"  name="address" id="address" value=""/><br>
+            <label >邮箱地址请按要求格式输入</label><br>
             <label for="pass1">请输入密码:</label>
-            <input type="password"  name="pass1" id="pass1" value=""/>  
+            <input type="password"  name="pass1" id="pass1" value=""/><br>
             <label for="pass2">再次输入密码:</label>
-            <input type="password"  name="pass2" id="pass2" value=""/>
-            <label>密码请为6-16位英文数字</label>><br>
+            <input type="password"  name="pass2" id="pass2" value=""/><br>
+            <label>密码请为6-16位英文数字</label>><br><br>
             <label>性别：</label>
             <label for="man">男</label>
             <input type="radio" value="man" id="man" name="gender">
@@ -108,16 +109,16 @@
                 <option value="广州">广州</option>
                 <option value="深圳">深圳</option>
                 <option value="苍蓝星">苍蓝星</option>
-            </select>
+            </select><br>
             <label >爱好：</label>
             <label for="运动">运动</label>
-            <input type="checkout" name="love" id="运动" value="1">
+            <input type="checkbox" name="love" id="运动">
             <label for="艺术">艺术</label>
-            <input type="checkout" name="love" id="艺术" >
+            <input type="checkbox" name="love" id="艺术">
             <label for="科学">科学</label>
-            <input type="checkout" name="love" id="科学">
+            <input type="checkbox" name="love" id="科学"><br>
             <label>个人描述：</label>
-            <textarea cols="30" rows="20">输入您的个人描述</textarea>
+            <textarea cols="20" rows="2">输入您的个人描述</textarea>
             <input type="submit" value="确认提交"  name="submit" />
             <!--input规定的type有button, checkbox, file, hidden, image, password, radio, reset, submit, text-->
          </form>
