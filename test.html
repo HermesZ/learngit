@@ -5,6 +5,7 @@
 <title>新大陆的苍蓝星</title>
 <style type="text/css">
     table tr td,th{border:1px solid #000;}
+    div{ width: 200px; height: 200px; float: left;} 
 </style>
 </head>
 <body>
@@ -38,8 +39,8 @@
     <blockquote>在发布星辰祭丰收之宴后，一些粉丝询问了绚辉龙的状态和发布时间。我们想向大家保证，它现在正在开展工作，我们的目标是在11月初的某个时候发布，除非出现任何不可预见的问题。<br>
     我们知道粉丝们正急切地等待这次更新，并请求您等到我们完成最后一点部分之前再等一会儿。感谢您的耐心！</blockquote>
     <p>下次标题更新将继续解决玩家们迫切需求的优化与操作问题，例如纹理与键盘控制。</p>
-    <img src="https://cdn.max-c.com/heybox/dailynews/img/db9b92bde0716f94fde5ad75db5d01e2.png?imageMogr2/thumbnail/!80p/format/jpg" >
-    绚辉龙版本到来后必刷武器：<br>
+    <img src="https://cdn.max-c.com/heybox/dailynews/img/db9b92bde0716f94fde5ad75db5d01e2.png?imageMogr2/thumbnail/!80p/format/jpg" ><hr>
+    <strong>绚辉龙版本到来后必刷武器：</strong><br>
     <ul>
         <li>单手剑</li>
         <img src="https://i0.hdslb.com/bfs/article/daf922466c71267e3bb66d079dc7062b78ae0adb.png@1228w_624h.webp" >
@@ -56,7 +57,7 @@
         <img src="https://i0.hdslb.com/bfs/article/ecf1a252f4e1ccb694cb7981f2d2a9f3b47619ab.png@1216w_712h.webp" title="我tm刷爆！">
         <li>弓</li>
         <img src="https://i0.hdslb.com/bfs/article/322b6b71ab0cb7ca9652ec5886bea12929c87abe.png@1228w_1044h.webp" >
-    </ul>
+    </ul><hr>
     <h2>附：武器热度榜</h2>
     <ol>
         <li>太刀</li>
@@ -86,15 +87,41 @@
             <td>8</td>
         </tr>
     </table>
-
-<form method="post" action="save.php">
-      <label for="username">用户名:</label>
-      <input type="text"  name="username" id="username" value="" />
-      <label for="pass">密码:</label>
-      <input type="password"  name="pass" id="pass" value="" />    
-      <input type="submit" value="确定"  name="submit" />
-      <input type="reset" value="重置" name="reset" />
-      <!--input规定的type有button, checkbox, file, hidden, image, password, radio, reset, submit, text-->
-</form>  
+    <div>
+        <form>
+            <label for="address">请输入邮箱地址:</label>
+            <input type="text"  name="address" id="address" value=""/>
+            <label for="pass1">请输入密码:</label>
+            <input type="password"  name="pass1" id="pass1" value=""/>  
+            <label for="pass2">再次输入密码:</label>
+            <input type="password"  name="pass2" id="pass2" value=""/>
+            <label>密码请为6-16位英文数字</label>><br>
+            <label>性别：</label>
+            <label for="man">男</label>
+            <input type="radio" value="man" id="man" name="gender">
+            <label for="woman">女</label>
+            <input type="radio" value="woman" id="woman" name="gender">
+            <label>城市：</label>
+            <select>
+                <option value="北京" selected="selected">北京</option>
+                <option value="上海">上海</option>
+                <option value="广州">广州</option>
+                <option value="深圳">深圳</option>
+                <option value="苍蓝星">苍蓝星</option>
+            </select>
+            <label >爱好：</label>
+            <label for="运动">运动</label>
+            <input type="checkout" name="love" id="运动" value="1">
+            <label for="艺术">艺术</label>
+            <input type="checkout" name="love" id="艺术" >
+            <label for="科学">科学</label>
+            <input type="checkout" name="love" id="科学">
+            <label>个人描述：</label>
+            <textarea cols="30" rows="20">输入您的个人描述</textarea>
+            <input type="submit" value="确认提交"  name="submit" />
+            <!--input规定的type有button, checkbox, file, hidden, image, password, radio, reset, submit, text-->
+         </form>
+         版权所有©
+    </div>
 </body>
 </html>
