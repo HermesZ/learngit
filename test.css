@@ -12,8 +12,6 @@ body{
     height: 60px;
 	line-height: 60px;
     width:100%;
-    position: fixed;
-    margin: 0px
 }
 .baidu{
 	display: inline-block;
@@ -33,13 +31,13 @@ body{
 .head a{
 	display: block;
 	width: 120px;
-	color: white;
+	color: rgb(132, 141, 214);
 	text-decoration: none;
 }
 .blockquote{
-    color: gray;
+    color: rgb(79, 77, 173);
     font-style: italic;
-    margin: 5%
+    margin: 2%
 }
 .article,.form{
 	background-color: white;
@@ -72,8 +70,8 @@ ul{
 }
 .picture div{
 	border: 1px solid #bebebe;
-	width: auto;
-	margin: auto;
+	padding: 10px;
+	margin: 10px;
 }
 .article ol{
 	padding: 0 2em;
@@ -91,7 +89,7 @@ table{
 	width: 100%;
 }
 table,th,td{
-	border: 1px solid grey;
+	border: 1px solid rgb(0, 0, 0);
 	text-align: left;
 }
 th{
@@ -103,27 +101,19 @@ th{
 }
 .form1{
 	position: relative;
-	left:35%;
+	left:20%;
 	padding-bottom: 1em;
 }
-.form h2{
-	font-size: 150%;
-	border-left: 4px solid #ccc;
-	padding-left: 0.5em;
-}
-form .right{
+.form1 .right{
 	width: 8em;
 }
 .instruction{
 	text-indent: 8em;
 	color:#ccc;
 }
-form label{
+.form1 label{
 	display: inline-block;
 	text-align: right;
-}
-.form p{
-	line-height: 200%;
 }
 textarea{
 	width: 50%;
@@ -137,4 +127,13 @@ textarea{
 	color:white;
 	font-weight: bold;
 	border-radius: 10px;
+}
+.last{
+    background-color: black;
+    height: 40px;
+	line-height: 40px;
+	width:100%;
+	text-align:center;
+	color: white;
+	margin-bottom:0px;
 }
